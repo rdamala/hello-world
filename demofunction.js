@@ -15,16 +15,21 @@ var greetMe = function (){
 testFun(greetMe);
 //##########################################################
 function test1(){
-var A = 3;
-var B = 6;
+var A = 8;
+var B = 9;
 res = A+B;
 console.log(res);
 }
-test1();
-test1();
+//test1();
+//test1();
 
 function testFirst(demo){
     demo();
     //return demo();
 }
 testFirst(test1);
+
+testFirst(function demoTest() {
+    console.log("This is function demo test");
+    
+});
