@@ -7,3 +7,5 @@ return c;
 }
 
 module.exports = { add };
+
+console.log("stash cmd is used before this");
