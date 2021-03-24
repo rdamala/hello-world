@@ -8,4 +8,4 @@ return c;
 
 module.exports = { add };
 
-console.log("stash cmd is used before this");
+console.log("stash cmd is used before this 1");
